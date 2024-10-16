@@ -4,6 +4,13 @@ import vue from '@vitejs/plugin-vue'
 
 
 export default defineConfig({
+    server: {
+        hmr: {
+            host: "localhost",
+        },
+        port: 4000,
+        host: true,
+    },
     plugins: [
         vue(),
         laravel({

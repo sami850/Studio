@@ -1,19 +1,14 @@
 <template>
-    <h1>About Page {{user}}</h1>
-    <h3>ok</h3>
-    <h3>ok</h3>
-    <p>hey2</p>
-    <h6>About bv {{user}}</h6>
+    <Head :title="` | ${$page.component}`"/>
+    <div>
+        <H2>
+            Hello {{user}} is here in about page
+        </H2>
+        <h1>About Page Checked </h1>
+
+    </div>
 </template>
 
-<!--<script setup >-->
-<!--export default {-->
-<!--name: "About.vue"-->
-<!--}-->
-<!--    defineProps({-->
-<!--            user : String-->
-<!--        })-->
-<!--</script>-->
 
 <style scoped>
 
